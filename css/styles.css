@@ -1,0 +1,24 @@
+
+#gameContainer {
+    position: relative;
+    width: 800px;
+    height: 480px;
+    margin: 0px auto;
+    -ms-touch-action: none;
+}
+
+#surface {
+	position: absolute;
+    border: 5px solid;
+}
+
+#debug{
+	position: absolute;
+	border: 5px solid;
+}
+
+#debugContainer{
+	position: absolute;
+	right: -100px;
+	top: 20px;
+}
