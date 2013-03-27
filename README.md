@@ -4,7 +4,10 @@ HTML5GameKit
 A HTML5 Game Kit/Framework from http://www.contrejour.ie/
 
 Official download site http://www.contrejour.ie/downloads/HTML5GameKit.zip
+
 Article about it http://www.noupe.com/webdev/80000-lines-of-objective-c-bringing-multi-touch-physics-to-the-html5-browser-75550.html
+
+
 =======
 HTML5 Game Pack
 What is it?
