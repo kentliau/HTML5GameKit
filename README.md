@@ -1,4 +1,3 @@
-
 HTML5GameKit
 ============
 
@@ -53,4 +52,3 @@ d.)	The GameEntity class simply combines the abilities of the Sprite and Physics
 7.)  Box2dUtil.js
 Box2dUtil is essentially a wrapper around Box2d that makes it easier for the game to use. It contains methods to create and update a Box2d world object and keeps this world logically separated from the game world. It also defines some helper methods for creating Box2d bodies in pixel – degree coordinates. Most importantly, this class sets up the game’s collision system in the initContactListener method (For more information about Box2d and contact listeners, see http://www.box2d.org/manual.html#_Toc258082975). If you recall, the PhysicsEntity class sets its body’s user data to point to the entity. Therefore, Box2dUtil tells Box2d that upon a body collision event to look at the user data. If the user data isn’t null, we know that this particular body has an entity attached to it and we should notify said entity that a collision has occurred by calling the appropriate collision method. Note that the values passed to the collision event are all Box2d values, and have not been wrapped.
 
->>>>>>> update readme.md
